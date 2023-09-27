@@ -260,7 +260,7 @@ class ExportResult(object):
 
 		
 	#	draw.line((0,newImageHeight - 30 - 1,imageRightPosition,newImageHeight - 30 - 1),fill=(127,127,127),width=1)
-		text = "便宜机场测速 With SSRSpeed N ( v{} )".format(config["VERSION"])
+		text = "SSRSpeed N ( v{} )".format(config["VERSION"])
 		draw.text((self.__getBasePos(imageRightPosition, text), 4),
 			text,
 			font=resultFont,
