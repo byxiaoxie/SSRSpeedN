@@ -1,5 +1,5 @@
 six
-pillow
+pillow==9.0.0
 requests
 requests[socks]
 pysocks
@@ -8,6 +8,6 @@ flask-cors
 pyyaml
 aiohttp
 aiohttp_socks
-pynat
+pynat==0.6.0
 beautifulsoup4
 selenium
