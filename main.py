@@ -74,7 +74,7 @@ if (__name__ == "__main__"):
 	print("****** Import Hint 重要提示******")
 	print("ChenBilly yyds！")
 	print("*********************************")
-	input("Press ENTER to conitnue or Crtl+C to exit.")
+	#input("Press ENTER to conitnue or Crtl+C to exit.")
 
 	if (options.debug):
 		DEBUG = options.debug

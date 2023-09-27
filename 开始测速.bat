@@ -34,15 +34,6 @@ if '%errorlevel%' NEQ '0' (echo #当前无管理员权限，无法安装。 && echo. && echo #
 :pip2
 python -m pip install --upgrade pip
 pip3 install -r %~dp0%\requirements.txt
-::pip3 install requests
-::pip3 install pyyaml
-::pip3 install Pillow
-::pip3 install pysocks
-::pip3 install aiohttp
-::pip3 install aiohttp_socks
-::pip3 install requests[socks]
-::pip3 install flask
-::pip3 install flask-cors
 pause
 goto :start
 
